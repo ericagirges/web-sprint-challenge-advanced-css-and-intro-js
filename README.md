@@ -22,10 +22,51 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
+
 1. How would you describe acessibility on the web to someone new to programming?
+
+Accessibility is including syntax/information within your code so all users can easily access the same information on a web page regardless of how they are accessing it (i.e. screen reader or certain browsers).
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+Semantic HTML tags, using Alt attrubutes for images and using responsive font sizes to enable zoom in/out functions on all devices.
+
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is like a storage space to hold specific informtation to be easily referenced and used throughout your code. 
+The 3 types of variables used are var, let and const.
+var - can be redeclared and reassigned from anywhere within your code. 
+ex:
+
+var mammal = "giraffe";
+var mammal = "elephant;
+console.log(mammal);
+
+**this will console log elephant**
+
+let - can NOT be redclared but it can be reassigned.
+ex:
+
+let fish = "goldfish";
+fish = "clown fish";
+console.log(fish);
+
+**this will console log clown fish. note that we do not declare "let" again to reassign**
+
+const - can not be redclared or reassigned. However, we can add or remove information stored so long as we are not declaring "const" or reassigning "="
+ex:
+
+const reptile = ["king cobra", "alligator", "gecko"];
+reptile.push("komodo dragon");
+console.log(reptile);
+
+**this will console log king cobra, alligator, gecko, komodo dragon. Note how we did not reassign or redeclare the variable reptile. We used .push() to add "komodo dragon" to the reptile array
+
+
 4. What is the purpose of using functions in code?
+
+Functions are meant to store a block of code that is designed to execute a specific task. We would only need to invoke the function to execute it instead of rewriting the entire block of code.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
